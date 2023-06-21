@@ -20,6 +20,34 @@
             <li> <button>Login</button> </li>
         </ul>
     </nav>
+
+    <h1 class="users-title">Users</h1>
+
+    <div class="userList" id="topUserList"></div>
+    <div class="userList" id="bottomUserList"></div>
+
+    <form id="addPostForm" class="add-post-form">
+        <h2>Add New Post</h2>
+        <div class="form-group">
+          <label for="userId">ID:</label>
+          <input type="text" id="userId" disabled>
+        </div>
+        <div class="form-group">
+          <label for="title">Title:</label>
+          <input type="text" id="title">
+        </div>
+        <div class="form-group">
+          <label for="body">Body:</label>
+          <textarea id="body"></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+      
+      
+      <h1 class="photos">Photos</h1>
+      <div class="photoList" id="photoList"></div>
     
     <script src="script.js"></script>
 </body>

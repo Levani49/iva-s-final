@@ -1,0 +1,187 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(176, 116, 5);
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.navigation ul li {
+    list-style: none;
+}
+
+.navigation ul li a {
+    display: block;
+    text-decoration: none;
+}
+
+.middle-elements {
+    display: flex;
+}
+
+.middle-elements li a {
+    padding: 2rem;
+    color: black;
+    font-size: 1rem;
+}
+
+.navigation ul li .final{
+    color: black;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.navigation ul li:hover {
+    text-decoration: underline;
+}
+
+.navigation ul li button {
+    width: 120px;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.navigation ul li button:hover {
+    background-color: black;
+    color: white;
+}
+
+.users-title {
+    margin-left: 50%;
+    margin-top: 5%;
+}
+
+.users-title:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.userDiv {
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .userList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 45px;
+    grid-gap: 20px;
+  }
+  
+  .userDiv button {
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: 30%;
+  }
+
+  .userDiv button:hover {
+    background-color: black;
+    color: white;
+}
+  
+.user-name {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.user-name:hover {
+    text-decoration: underline;
+}
+
+.add-post-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: black;
+  }
+  
+  
+  .add-post-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-post-form .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .add-post-form .form-group label {
+    font-weight: bold;
+  }
+  
+  .add-post-form .form-group input[type="text"],
+  .add-post-form .form-group textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-post-form .form-group button {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    margin: 0 auto;
+    display: block;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .add-post-form .form-group button:hover {
+    background-color: black;
+    color: white;
+  }
+  
+
+  .photos {
+    margin-left: 50%;
+    margin-top: 5%;
+  }
+
+  .photos:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+.photo-container {
+  display: inline-block;
+  width: calc(17.33% - 9px);
+}
+
+.random-image {
+  width: 100%;
+  height: auto;
+}
+
+.photo-title {
+  margin-top: 10px;
+}
